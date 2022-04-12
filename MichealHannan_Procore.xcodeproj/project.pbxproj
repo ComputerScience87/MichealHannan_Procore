@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		531BD2A82800B8F9002DB66F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531BD2A72800B8F9002DB66F /* AppDelegate.swift */; };
+		531BD2AA2800B8F9002DB66F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531BD2A92800B8F9002DB66F /* SceneDelegate.swift */; };
+		531BD2AC2800B8F9002DB66F /* FlickrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531BD2AB2800B8F9002DB66F /* FlickrViewController.swift */; };
+		531BD2AF2800B8F9002DB66F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531BD2AD2800B8F9002DB66F /* Main.storyboard */; };
+		531BD2B12800B8FB002DB66F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531BD2B02800B8FB002DB66F /* Assets.xcassets */; };
+		531BD2B42800B8FB002DB66F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531BD2B22800B8FB002DB66F /* LaunchScreen.storyboard */; };
+		531BD2BF2800B8FB002DB66F /* MichealHannanProcoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531BD2BE2800B8FB002DB66F /* MichealHannanProcoreTests.swift */; };
+		531BD2C92800B8FB002DB66F /* MichealHannanProcoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531BD2C82800B8FB002DB66F /* MichealHannanProcoreUITests.swift */; };
+		531BD2CB2800B8FB002DB66F /* MichealHannanProcoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531BD2CA2800B8FB002DB66F /* MichealHannanProcoreUITestsLaunchTests.swift */; };
+		535464C32805CCF20022845A /* FlickrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535464C22805CCF20022845A /* FlickrService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		531BD2BB2800B8FB002DB66F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 531BD29C2800B8F9002DB66F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 531BD2A32800B8F9002DB66F;
+			remoteInfo = MichealHannan_Procore;
+		};
+		531BD2C52800B8FB002DB66F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 531BD29C2800B8F9002DB66F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 531BD2A32800B8F9002DB66F;
+			remoteInfo = MichealHannan_Procore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		531BD2A42800B8F9002DB66F /* MichealHannan_Procore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MichealHannan_Procore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		531BD2A72800B8F9002DB66F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MichealHannan_Procore/AppDelegate.swift; sourceTree = "<group>"; };
+		531BD2A92800B8F9002DB66F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = MichealHannan_Procore/SceneDelegate.swift; sourceTree = "<group>"; };
+		531BD2AB2800B8F9002DB66F /* FlickrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FlickrViewController.swift; path = MichealHannan_Procore/FlickrViewController.swift; sourceTree = "<group>"; };
+		531BD2AE2800B8F9002DB66F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		531BD2B02800B8FB002DB66F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MichealHannan_Procore/Assets.xcassets; sourceTree = "<group>"; };
+		531BD2B32800B8FB002DB66F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		531BD2B52800B8FB002DB66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = MichealHannan_Procore/Info.plist; sourceTree = "<group>"; };
+		531BD2BA2800B8FB002DB66F /* MichealHannan_ProcoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MichealHannan_ProcoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		531BD2BE2800B8FB002DB66F /* MichealHannanProcoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichealHannanProcoreTests.swift; sourceTree = "<group>"; };
+		531BD2C42800B8FB002DB66F /* MichealHannan_ProcoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MichealHannan_ProcoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		531BD2C82800B8FB002DB66F /* MichealHannanProcoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichealHannanProcoreUITests.swift; sourceTree = "<group>"; };
+		531BD2CA2800B8FB002DB66F /* MichealHannanProcoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichealHannanProcoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		535464C22805CCF20022845A /* FlickrService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		531BD2A12800B8F9002DB66F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531BD2B72800B8FB002DB66F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531BD2C12800B8FB002DB66F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		531BD29B2800B8F9002DB66F = {
+			isa = PBXGroup;
+			children = (
+				531BD2A62800B8F9002DB66F /* MichealHannan_Procore */,
+				531BD2BD2800B8FB002DB66F /* MichealHannan_ProcoreTests */,
+				531BD2C72800B8FB002DB66F /* MichealHannan_ProcoreUITests */,
+				531BD2A52800B8F9002DB66F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		531BD2A52800B8F9002DB66F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				531BD2A42800B8F9002DB66F /* MichealHannan_Procore.app */,
+				531BD2BA2800B8FB002DB66F /* MichealHannan_ProcoreTests.xctest */,
+				531BD2C42800B8FB002DB66F /* MichealHannan_ProcoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		531BD2A62800B8F9002DB66F /* MichealHannan_Procore */ = {
+			isa = PBXGroup;
+			children = (
+				531BD2A72800B8F9002DB66F /* AppDelegate.swift */,
+				531BD2A92800B8F9002DB66F /* SceneDelegate.swift */,
+				531BD2AB2800B8F9002DB66F /* FlickrViewController.swift */,
+				531BD2AD2800B8F9002DB66F /* Main.storyboard */,
+				531BD2B02800B8FB002DB66F /* Assets.xcassets */,
+				531BD2B22800B8FB002DB66F /* LaunchScreen.storyboard */,
+				531BD2B52800B8FB002DB66F /* Info.plist */,
+				535464C22805CCF20022845A /* FlickrService.swift */,
+			);
+			path = MichealHannan_Procore;
+			sourceTree = "<group>";
+		};
+		531BD2BD2800B8FB002DB66F /* MichealHannan_ProcoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				531BD2BE2800B8FB002DB66F /* MichealHannanProcoreTests.swift */,
+			);
+			path = MichealHannan_ProcoreTests;
+			sourceTree = "<group>";
+		};
+		531BD2C72800B8FB002DB66F /* MichealHannan_ProcoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				531BD2C82800B8FB002DB66F /* MichealHannanProcoreUITests.swift */,
+				531BD2CA2800B8FB002DB66F /* MichealHannanProcoreUITestsLaunchTests.swift */,
+			);
+			path = MichealHannan_ProcoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		531BD2A32800B8F9002DB66F /* MichealHannan_Procore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531BD2CE2800B8FB002DB66F /* Build configuration list for PBXNativeTarget "MichealHannan_Procore" */;
+			buildPhases = (
+				533C54472800BADC00D609F7 /* Run SwiftLint (DISABLED) */,
+				531BD2A02800B8F9002DB66F /* Sources */,
+				531BD2A12800B8F9002DB66F /* Frameworks */,
+				531BD2A22800B8F9002DB66F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MichealHannan_Procore;
+			productName = MichealHannan_Procore;
+			productReference = 531BD2A42800B8F9002DB66F /* MichealHannan_Procore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		531BD2B92800B8FB002DB66F /* MichealHannan_ProcoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531BD2D12800B8FB002DB66F /* Build configuration list for PBXNativeTarget "MichealHannan_ProcoreTests" */;
+			buildPhases = (
+				531BD2B62800B8FB002DB66F /* Sources */,
+				531BD2B72800B8FB002DB66F /* Frameworks */,
+				531BD2B82800B8FB002DB66F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				531BD2BC2800B8FB002DB66F /* PBXTargetDependency */,
+			);
+			name = MichealHannan_ProcoreTests;
+			productName = MichealHannan_ProcoreTests;
+			productReference = 531BD2BA2800B8FB002DB66F /* MichealHannan_ProcoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		531BD2C32800B8FB002DB66F /* MichealHannan_ProcoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531BD2D42800B8FB002DB66F /* Build configuration list for PBXNativeTarget "MichealHannan_ProcoreUITests" */;
+			buildPhases = (
+				531BD2C02800B8FB002DB66F /* Sources */,
+				531BD2C12800B8FB002DB66F /* Frameworks */,
+				531BD2C22800B8FB002DB66F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				531BD2C62800B8FB002DB66F /* PBXTargetDependency */,
+			);
+			name = MichealHannan_ProcoreUITests;
+			productName = MichealHannan_ProcoreUITests;
+			productReference = 531BD2C42800B8FB002DB66F /* MichealHannan_ProcoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		531BD29C2800B8F9002DB66F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					531BD2A32800B8F9002DB66F = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					531BD2B92800B8FB002DB66F = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 531BD2A32800B8F9002DB66F;
+					};
+					531BD2C32800B8FB002DB66F = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 531BD2A32800B8F9002DB66F;
+					};
+				};
+			};
+			buildConfigurationList = 531BD29F2800B8F9002DB66F /* Build configuration list for PBXProject "MichealHannan_Procore" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 531BD29B2800B8F9002DB66F;
+			productRefGroup = 531BD2A52800B8F9002DB66F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				531BD2A32800B8F9002DB66F /* MichealHannan_Procore */,
+				531BD2B92800B8FB002DB66F /* MichealHannan_ProcoreTests */,
+				531BD2C32800B8FB002DB66F /* MichealHannan_ProcoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		531BD2A22800B8F9002DB66F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531BD2B42800B8FB002DB66F /* LaunchScreen.storyboard in Resources */,
+				531BD2B12800B8FB002DB66F /* Assets.xcassets in Resources */,
+				531BD2AF2800B8F9002DB66F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531BD2B82800B8FB002DB66F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531BD2C22800B8FB002DB66F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		533C54472800BADC00D609F7 /* Run SwiftLint (DISABLED) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint (DISABLED)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run SwiftLint\n#if which swiftlint >/dev/null; then\n#  swiftlint autocorrect\n#  swiftlint\n#else\n#  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n#fi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		531BD2A02800B8F9002DB66F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531BD2AC2800B8F9002DB66F /* FlickrViewController.swift in Sources */,
+				531BD2A82800B8F9002DB66F /* AppDelegate.swift in Sources */,
+				535464C32805CCF20022845A /* FlickrService.swift in Sources */,
+				531BD2AA2800B8F9002DB66F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531BD2B62800B8FB002DB66F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531BD2BF2800B8FB002DB66F /* MichealHannanProcoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531BD2C02800B8FB002DB66F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531BD2C92800B8FB002DB66F /* MichealHannanProcoreUITests.swift in Sources */,
+				531BD2CB2800B8FB002DB66F /* MichealHannanProcoreUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		531BD2BC2800B8FB002DB66F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 531BD2A32800B8F9002DB66F /* MichealHannan_Procore */;
+			targetProxy = 531BD2BB2800B8FB002DB66F /* PBXContainerItemProxy */;
+		};
+		531BD2C62800B8FB002DB66F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 531BD2A32800B8F9002DB66F /* MichealHannan_Procore */;
+			targetProxy = 531BD2C52800B8FB002DB66F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		531BD2AD2800B8F9002DB66F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				531BD2AE2800B8F9002DB66F /* Base */,
+			);
+			name = Main.storyboard;
+			path = MichealHannan_Procore;
+			sourceTree = "<group>";
+		};
+		531BD2B22800B8FB002DB66F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				531BD2B32800B8FB002DB66F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = MichealHannan_Procore;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		531BD2CC2800B8FB002DB66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		531BD2CD2800B8FB002DB66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		531BD2CF2800B8FB002DB66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MichealHannan_Procore/MichealHannan_Procore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Micheal-Hannan.MichealHannan-Procore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		531BD2D02800B8FB002DB66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MichealHannan_Procore/MichealHannan_Procore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Micheal-Hannan.MichealHannan-Procore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		531BD2D22800B8FB002DB66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Micheal-Hannan.MichealHannan-ProcoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MichealHannan_Procore.app/MichealHannan_Procore";
+			};
+			name = Debug;
+		};
+		531BD2D32800B8FB002DB66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Micheal-Hannan.MichealHannan-ProcoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MichealHannan_Procore.app/MichealHannan_Procore";
+			};
+			name = Release;
+		};
+		531BD2D52800B8FB002DB66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Micheal-Hannan.MichealHannan-ProcoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MichealHannan_Procore;
+			};
+			name = Debug;
+		};
+		531BD2D62800B8FB002DB66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Micheal-Hannan.MichealHannan-ProcoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MichealHannan_Procore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		531BD29F2800B8F9002DB66F /* Build configuration list for PBXProject "MichealHannan_Procore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531BD2CC2800B8FB002DB66F /* Debug */,
+				531BD2CD2800B8FB002DB66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		531BD2CE2800B8FB002DB66F /* Build configuration list for PBXNativeTarget "MichealHannan_Procore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531BD2CF2800B8FB002DB66F /* Debug */,
+				531BD2D02800B8FB002DB66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		531BD2D12800B8FB002DB66F /* Build configuration list for PBXNativeTarget "MichealHannan_ProcoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531BD2D22800B8FB002DB66F /* Debug */,
+				531BD2D32800B8FB002DB66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		531BD2D42800B8FB002DB66F /* Build configuration list for PBXNativeTarget "MichealHannan_ProcoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531BD2D52800B8FB002DB66F /* Debug */,
+				531BD2D62800B8FB002DB66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 531BD29C2800B8F9002DB66F /* Project object */;
+}
